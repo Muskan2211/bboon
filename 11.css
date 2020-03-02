@@ -1,0 +1,24 @@
+body
+{
+	background-image:url("back.jpg");
+}
+h1
+{
+text-align:center;
+color: black;
+}
+p
+{
+	color: white;
+	text-align: justify;
+	text-indent: 50px;
+	font-family: Times New Roman;
+	font-size: 150%;
+	background-color:black;
+}
+b
+{
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 100%;
+}

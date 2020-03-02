@@ -1,0 +1,97 @@
+
+#top
+{   position:reltive;
+	width:1342px;
+	height:100px;
+	background-color:black;
+}
+#right
+{   position:reltive;
+	width:200px;
+	height:1000px;
+	background-color:lightgrey;
+}
+#left
+{
+	position:absolute;
+	left:1150px;
+	width:200px;
+	height:1000px;
+	background-color:lightgrey;
+}
+#bottom
+{   position:reltive;
+    bottom:900;
+	width:1342px;
+	height:100px;
+	background-color:black;
+}
+#computerscience
+{
+	position:absolute;
+    top:112px;
+	left:208px;
+	width:471px;
+	height:400px;
+}	
+#technology
+{
+	position:absolute;
+    top:112px;
+	left:679px;
+	width:471px;
+	height:400px;
+	
+}
+#motivation
+{
+	position:absolute;
+    top:612px;
+	left:208px;
+	width:471px;
+	height:400px;
+}
+#science
+{
+	position:absolute;
+    top:612px;
+	left:679px;
+	width:471px;
+	height:400px;
+}
+#comsci
+{
+	position:absolute;
+    top:512px;
+	left:208px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#techfact
+{
+	position:absolute;
+    top:512px;
+	left:679px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#scifact
+{
+	position:absolute;
+    top:1012px;
+	left:679px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#motivat
+{
+	position:absolute;
+    top:1012px;
+	left:208px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}

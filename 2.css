@@ -1,0 +1,101 @@
+body {
+    background-color:lightgrey;
+}
+
+
+#top
+{   position:reltive;
+	width:1342px;
+	height:100px;
+	background-color:black;
+}
+#right
+{   position:reltive;
+	width:200px;
+	height:1000px;
+	background-color:lightgrey;
+}
+#left
+{
+	position:absolute;
+	left:1150px;
+	width:200px;
+	height:1000px;
+	background-color:lightgrey;
+}
+#bottom
+{   position:reltive;
+    bottom:900;
+	width:1342px;
+	height:100px;
+	background-color:black;
+}
+#scope
+{
+	position:absolute;
+    top:114px;
+	left:208px;
+	width:471px;
+	height:400px;
+}	
+#advtechnology
+{
+	position:absolute;
+    top:114px;
+	left:679px;
+	width:471px;
+	height:400px;
+	
+}
+#gate
+{
+	position:absolute;
+    top:614px;
+	left:208px;
+	width:471px;
+	height:400px;
+}
+#placement
+{
+	position:absolute;
+    top:614px;
+	left:679px;
+	width:471px;
+	height:400px;
+}
+#scopes
+{
+	position:absolute;
+    top:514px;
+	left:208px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#advtech
+{
+	position:absolute;
+    top:514px;
+	left:679px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#place
+{
+	position:absolute;
+    top:1014px;
+	left:679px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}
+#gates
+{
+	position:absolute;
+    top:1014px;
+	left:208px;
+	width:471px;
+	height:100px;
+	background-color:grey;
+}

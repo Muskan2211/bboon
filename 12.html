@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="12.css"/>
+<script>
+  function confer()
+  {
+
+	 c=confirm("Are you sure? press cancel to change answer");
+	 if (c==true) {
+           if(document.getElementById('hs').checked){
+		       alert("correct answer!");
+		   }
+		   else{
+		     alert ("wrong answer!");
+		   }
+       }
+	 else{
+	    alert("User does not want to continue!");
+	 }
+  }
+  
+</script>
+</head>
+<body>
+
+                 
+				 <div  style="width:1350px;height:120px;background-image: url('10head.jpg');"></div>
+<P>Brass gets discoloured in air because of the presence of which of the following gases in air?</P>
+<div>
+<input type="radio" name="g" id="o">1.Oxygen<br>
+<input type="radio" name="g" id="hs">2.Hydrogen sulphide<br>
+<input type="radio" name="g" id="cd">3.Carbon dioxide<br>
+<input type="radio" name="g" id="n">4.Nitrogen<br>
+</div>	
+<br>
+<button  onclick="confer()" type="button">SUBMIT</button>	
+ <P style="background-color:black;color:white;font-size:100%;width:300px;">TO GO BACK<a href="5.html"> click here</a></P>
+
+</body>
+</html>

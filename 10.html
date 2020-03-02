@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="10.css"/>
+<script>
+  function confer()
+  {
+     c=confirm("Are you sure? press cancel to change answer");
+	 if (c==true) {
+           if(document.getElementById('ani').checked){
+		       alert("correct answer!");
+		   }
+		   else{
+		     alert ("wrong answer!");
+		   }
+       }
+	 else{
+	    alert("User does not want to continue!");
+	 }
+  }
+  
+</script>
+</head>
+<body>
+
+
+                   <div style="width:1350px;height:100px;background-image: url('10b.jpg');"><h2><u>QUESTION OF THE DAY</u></h2></div>
+				   
+
+<p id="PP">'.MPG' extension refers usually to what kind of file?</p>
+<div>
+<input type="radio" name="g" id="wdf">1.WordPerfect Document file<br>
+<input type="radio" name="g" id="msoc">2.MS Office document<br>
+<input type="radio" name="g" id="ani">3.Animation/movie file<br>
+<input type="radio" name="g" id="ifm">4.Image file<br>
+</div>	
+<br>
+<button onclick="confer()" type="button" height="70px" width="100px";>SUBMIT</button>	
+
+ <P style="background-color:black;color:white;font-size:100%;width:200px;;">TO GO BACK<a href="3.html"> click here</a></P>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body
+{
+	background-image:url("3back.jpg");
+}
+h1
+{
+	text-align: center;
+	color:white;
+}
+p{
+	background-color:white;
+	font-size: 150%;
+	font-family: Times New Roman;
+	text-indent: 50px;
+	font-style: italic;
+	color:dodgerblue;
+}
+
+#k ul
+{
+	color:white;
+}

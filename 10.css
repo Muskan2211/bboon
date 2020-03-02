@@ -1,0 +1,26 @@
+body
+{
+	background-image:url("12quizb.jpg");
+}
+h2
+{
+	font-size: 50px;
+	text-align:center;
+	color: black;
+}
+P{
+	font-size: 200%;
+    font-style: bold;
+	font-weight: normal;
+	background-color:white;
+	width:700px;
+	height:30px;
+}
+div
+{
+	font-size: 200%;
+	background-color:black;
+	color: white;
+	width:400px;
+	height:150px;
+}
